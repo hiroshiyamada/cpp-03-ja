@@ -1,1 +1,5 @@
-// コードを入力してください
+template <typename... Args>
+int sum(const Args &...args)
+{
+    return (args + ...);
+}
