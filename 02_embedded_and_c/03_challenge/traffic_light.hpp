@@ -1,1 +1,7 @@
-// コードを入力してください
+enum class TrafficLightState{
+    red,
+    yellow,
+    green
+};
+
+int trafficLightDuration(TrafficLightState state);
