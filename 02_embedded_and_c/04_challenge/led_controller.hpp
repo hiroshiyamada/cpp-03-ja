@@ -1,1 +1,9 @@
-// コードを入力してください
+#include "led_controller.h"
+
+class LedController{
+    public:
+        LedController();
+        void turnOn();
+        void turnOff();
+        bool getState() const;
+};
